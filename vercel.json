@@ -1,0 +1,13 @@
+{
+  "rewrites": [
+    {
+      "source": "/tiktok-dl",
+      "destination": "/tiktok-dl/public/index.html"
+    },
+    {
+      "source": "/tiktok-dl/(.*)",
+      "destination": "/tiktok-dl/public/$1"
+    }
+  ]
+}
+
